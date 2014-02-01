@@ -60,6 +60,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     minitest (4.7.5)
+    model_to_locale (0.1.0)
     multi_json (1.8.4)
     polyglot (0.3.3)
     rack (1.5.2)
@@ -129,6 +130,7 @@ DEPENDENCIES
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails
+  model_to_locale
   rails (= 4.0.0)
   rails-i18n
   sass-rails (~> 4.0.0)

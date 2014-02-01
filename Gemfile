@@ -8,6 +8,7 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'rails-i18n'
+gem 'model_to_locale'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
