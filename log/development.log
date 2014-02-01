@@ -335,3 +335,256 @@ Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 14:17:25 +02
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 14:17:25 +0200
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2014-02-01 14:22:05 +0200
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.haml (85.9ms)
+  Rendered courses/new.html.haml within layouts/application (91.4ms)
+Completed 200 OK in 162ms (Views: 143.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:06 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:07 +0200
+
+
+Started POST "/courses" for 127.0.0.1 at 2014-02-01 14:22:10 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"haxLT/klkU7KtVR7qu+bG2uAh4mnk566sbwizwm/diY=", "course"=>{"name"=>"", "content"=>""}, "commit"=>"Save"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mCourse Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "courses" WHERE "courses"."name" = '' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  Rendered courses/_form.html.haml (14.0ms)
+  Rendered courses/new.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 209ms (Views: 63.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 14:22:11 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddGsmToCourse (20140201122642)
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36m (2.1ms)[0m  [1mALTER TABLE "courses" ADD "gsm" varchar(255)[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140201122642"]]
+  [1m[36m (282.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2014-02-01 14:29:24 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.haml (205.0ms)
+  Rendered courses/new.html.haml within layouts/application (209.8ms)
+Completed 200 OK in 271ms (Views: 252.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 14:29:25 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddGsmToCourse (20140201122642)
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (38.0ms)[0m  CREATE TEMPORARY TABLE "acourses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "gsm" varchar(255)) 
+  [1m[36m (0.7ms)[0m  [1mSELECT * FROM "courses"[0m
+  [1m[35m (1.6ms)[0m  DROP TABLE "courses"
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "courses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.4ms)[0m  SELECT * FROM "acourses"
+  [1m[36m (1.0ms)[0m  [1mDROP TABLE "acourses"[0m
+  [1m[35mSQL (1.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20140201122642'
+  [1m[36m (217.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.9ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddGsmToCourse (20140201122642)
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36m (1.5ms)[0m  [1mALTER TABLE "courses" ADD "gsm" varchar(255)[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140201122642"]]
+  [1m[36m (227.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
