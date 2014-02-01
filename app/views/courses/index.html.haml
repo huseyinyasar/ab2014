@@ -1,9 +1,10 @@
 %h1 Listing courses
 
-%table.table.table-striped
+%table
   %tr
-    %th
-    %th= t("activerecord.attributes.course.content")
+    %th Name
+    %th Content
+    %th Gsm
     %th
     %th
     %th
@@ -12,6 +13,7 @@
     %tr
       %td= course.name
       %td= course.content
+      %td= course.gsm
       %td= link_to 'Show', course
       %td= link_to 'Edit', edit_course_path(course)
       %td= link_to 'Destroy', course, :method => :delete, :data => { :confirm => 'Are you sure?' }

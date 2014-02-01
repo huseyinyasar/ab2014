@@ -1,20 +1,10 @@
-= form_for @course do |f|
-  - if @course.errors.any?
-    #error_explanation
-      %h2= "#{pluralize(@course.errors.count, "error")} prohibited this course from being saved:"
-      %ul
-        - @course.errors.full_messages.each do |msg|
-          %li= msg
+= simple_form_for(@course) do |f|
+  = f.error_notification
 
-  .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :content
-    = f.text_area :content
-  .field
-    = f.label :gsm
-    = f.text_field :gsm
+  .form-inputs
+    = f.input :name
+    = f.input :content
+    = f.input :gsm
 
-  .actions
-    = f.submit 'Save'
+  .form-actions
+    = f.button :submit

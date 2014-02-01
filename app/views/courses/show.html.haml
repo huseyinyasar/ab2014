@@ -1,12 +1,8 @@
-%p#notice= notice
-
-%p
-  %b Name:
-  = @course.name
-%p
-  %b Content:
-  = @course.content
+= show_for(@course) do |s|
+  = s.attribute :name
+  = s.attribute :content
+  = s.attribute :gsm
 
 = link_to 'Edit', edit_course_path(@course)
-\|
+|
 = link_to 'Back', courses_path

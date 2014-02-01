@@ -1,9 +1,9 @@
 Ab2014::Application.routes.draw do
+  resources :courses
+
   resources :students
 
   resources :teachers
-
-  resources :courses
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
