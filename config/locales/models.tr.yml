@@ -1,0 +1,20 @@
+---
+tr:
+  activerecord:
+    models:
+      schemamigration: Schemamigration
+      course: Course
+      teacher: Teacher
+    attributes:
+      course:
+        id: Id
+        name: Name
+        content: Content
+        created_at: Created_at
+        updated_at: Updated_at
+        gsm: Gsm
+      teacher:
+        id: Id
+        name: Name
+        created_at: Created_at
+        updated_at: Updated_at
