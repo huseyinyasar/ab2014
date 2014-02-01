@@ -9,6 +9,7 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'rails-i18n'
 gem 'model_to_locale'
+gem 'show_for'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

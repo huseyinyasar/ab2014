@@ -2673,3 +2673,2501 @@ Processing by CoursesController#new as HTML
   Rendered courses/_form.html.haml (2303.8ms)
   Rendered courses/new.html.haml within layouts/application (2330.1ms)
 Completed 200 OK in 2389ms (Views: 2378.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-01 15:40:54 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 957ms (Views: 857.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:56 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:40:57 +0200
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2014-02-01 15:41:02 +0200
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.haml (2413.2ms)
+  Rendered courses/new.html.haml within layouts/application (2437.6ms)
+Completed 200 OK in 2502ms (Views: 2492.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/teachers/new" for 127.0.0.1 at 2014-02-01 15:42:25 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.haml (385.9ms)
+  Rendered teachers/new.html.haml within layouts/application (397.3ms)
+Completed 200 OK in 486ms (Views: 466.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:26 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:42:27 +0200
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-01 15:45:24 +0200
+Processing by TeachersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"haxLT/klkU7KtVR7qu+bG2uAh4mnk566sbwizwm/diY=", "teacher"=>{"name"=>"Muhammed Dilek"}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (285.4ms)[0m  INSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 01 Feb 2014 13:45:24 UTC +00:00], ["name", "Muhammed Dilek"], ["updated_at", Sat, 01 Feb 2014 13:45:24 UTC +00:00]]
+  [1m[36m (290.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/teachers/1
+Completed 302 Found in 606ms (ActiveRecord: 576.2ms)
+
+
+Started GET "/teachers/1" for 127.0.0.1 at 2014-02-01 15:45:25 +0200
+Processing by TeachersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeacher Load (0.7ms)[0m  SELECT "teachers".* FROM "teachers" WHERE "teachers"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered teachers/show.html.haml within layouts/application (11.7ms)
+Completed 200 OK in 88ms (Views: 74.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:45:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:45:25 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:45:25 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:45:26 +0200
+
+
+Started GET "/teachers" for 127.0.0.1 at 2014-02-01 15:46:06 +0200
+Processing by TeachersController#index as HTML
+  [1m[36mTeacher Load (1.0ms)[0m  [1mSELECT "teachers".* FROM "teachers"[0m
+  Rendered teachers/index.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 92ms (Views: 87.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/teachers/" for 127.0.0.1 at 2014-02-01 15:52:44 +0200
+Processing by TeachersController#index as HTML
+  [1m[35mTeacher Load (0.9ms)[0m  SELECT "teachers".* FROM "teachers"
+  Rendered teachers/index.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 94ms (Views: 89.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:52:44 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:45 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:46 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:46 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:52:46 +0200
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 15:56:31 +0200
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (1.2ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.haml within layouts/application (21.8ms)
+Completed 200 OK in 95ms (Views: 89.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:32 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:33 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:33 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:33 +0200
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 15:56:50 +0200
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.7ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.haml within layouts/application (14.0ms)
+Completed 200 OK in 65ms (Views: 60.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:51 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:56:52 +0200
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 15:57:03 +0200
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.8ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 81ms (Views: 76.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:57:03 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:57:03 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:57:03 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:03 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:03 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:03 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:57:04 +0200
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.haml within layouts/application (15.3ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:13 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:58:14 +0200
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 16:09:39 +0200
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (1.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.haml within layouts/application (2290.1ms)
+Completed 200 OK in 2354ms (Views: 2337.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 16:09:41 +0200
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 52ms (Views: 47.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:42 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:43 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:43 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:43 +0200
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-02-01 16:09:50 +0200
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (1.0ms)[0m  [1mSELECT "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 404 Not Found in 22ms
+
+ActiveRecord::RecordNotFound (Couldn't find Course with id=1):
+  app/controllers/courses_controller.rb:67:in `set_course'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.6ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (120.1ms)
+
+
+Started GET "/course/1" for 127.0.0.1 at 2014-02-01 16:09:54 +0200
+
+ActionController::RoutingError (No route matches [GET] "/course/1"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.6ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.6ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.3ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (191.6ms)
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 16:09:58 +0200
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.9ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 83ms (Views: 78.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:09:59 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:00 +0200
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2014-02-01 16:10:02 +0200
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.haml (123.6ms)
+  Rendered courses/new.html.haml within layouts/application (129.9ms)
+Completed 200 OK in 181ms (Views: 176.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2014-02-01 16:10:15 +0200
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"haxLT/klkU7KtVR7qu+bG2uAh4mnk566sbwizwm/diY=", "course"=>{"name"=>"Ror", "content"=>"Ruby on Rails", "gsm"=>"123"}, "commit"=>"Save"}
+Unpermitted parameters: gsm
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mCourse Exists (0.5ms)[0m  SELECT 1 AS one FROM "courses" WHERE "courses"."name" = 'Ror' LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "courses" ("content", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "Ruby on Rails"], ["created_at", Sat, 01 Feb 2014 14:10:15 UTC +00:00], ["name", "Ror"], ["updated_at", Sat, 01 Feb 2014 14:10:15 UTC +00:00]]
+  [1m[35m (206.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/courses/1
+Completed 302 Found in 385ms (ActiveRecord: 208.9ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-02-01 16:10:15 +0200
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered courses/show.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 68ms (Views: 60.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:10:16 +0200
+
+
+Started GET "/students" for 127.0.0.1 at 2014-02-01 16:11:51 +0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.1ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (117.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateStudents (20140201141141)
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140201141141"]]
+  [1m[36m (192.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/students" for 127.0.0.1 at 2014-02-01 16:12:11 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 5828ms (Views: 5814.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.8ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 62ms (Views: 57.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:18 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:19 +0200
+
+
+Started GET "/students" for 127.0.0.1 at 2014-02-01 16:12:44 +0200
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.7ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 4229ms (Views: 4225.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:49 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:50 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:50 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:50 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-01 16:12:50 +0200
+
+
+Started GET "/students/new" for 127.0.0.1 at 2014-02-01 16:12:54 +0200
+Processing by StudentsController#new as HTML
+  Rendered students/_form.html.haml (115.3ms)
+  Rendered students/new.html.haml within layouts/application (129.1ms)
+Completed 200 OK in 196ms (Views: 186.8ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/students" for 127.0.0.1 at 2014-02-01 16:13:01 +0200
+Processing by StudentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"haxLT/klkU7KtVR7qu+bG2uAh4mnk566sbwizwm/diY=", "student"=>{"name"=>"Hüseyin Yaşar"}, "commit"=>"Student Ekle"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "students" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 01 Feb 2014 14:13:01 UTC +00:00], ["name", "Hüseyin Yaşar"], ["updated_at", Sat, 01 Feb 2014 14:13:01 UTC +00:00]]
+  [1m[36m (342.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/students/1
+Completed 302 Found in 363ms (ActiveRecord: 344.0ms)
+
+
+Started GET "/students/1" for 127.0.0.1 at 2014-02-01 16:13:02 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+ERROR: compiling _app_views_students_show_html_haml___64414737__620413618 RAISED /home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\n", 0, false);::Haml::Util.h...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_students_show_html_haml___64414737__620413618(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "students/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true, :hyphenate_data_attrs=>true, :cdata=>false});_erbout = _hamlout.buffer;@output_buffer = output_buffer ||= ActionView::OutputBuffer.new rescue nil;;_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( show_for(@student) do |s|
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( s.attribute :name
+));}\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Edit', edit_student_path(@student)
+));}\n|\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Back', students_path
+));}\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered students/show.html.haml within layouts/application (178.0ms)
+Completed 500 Internal Server Error in 193ms
+
+ActionView::Template::Error (/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\n", 0, false);::Haml::Util.h...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end):
+    1: = show_for(@student) do |s|
+    2: = s.attribute :name
+    3:  
+    4: = link_to 'Edit', edit_student_path(@student)
+    5: |
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.8ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (66.3ms)
+
+
+Started GET "/students/1" for 127.0.0.1 at 2014-02-01 16:14:42 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+ERROR: compiling _app_views_students_show_html_haml___64414737__592137978 RAISED /home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\nend\n", 0, false);::Haml::U...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_students_show_html_haml___64414737__592137978(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "students/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true, :hyphenate_data_attrs=>true, :cdata=>false});_erbout = _hamlout.buffer;@output_buffer = output_buffer ||= ActionView::OutputBuffer.new rescue nil;;_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( show_for(@student) do |s|
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( s.attribute :name
+));}\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Edit', edit_student_path(@student)
+));}\n|\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Back', students_path
+));}\nend\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered students/show.html.haml within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\nend\n", 0, false);::Haml::U...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end):
+    1: = show_for(@student) do |s|
+    2: = s.attribute :name
+    3:  
+    4: = link_to 'Edit', edit_student_path(@student)
+    5: |
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.8ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (59.5ms)
+
+
+Started GET "/students/1" for 127.0.0.1 at 2014-02-01 16:14:49 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+ERROR: compiling _app_views_students_show_html_haml___64414737__592137978 RAISED /home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\nend\n", 0, false);::Haml::U...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_students_show_html_haml___64414737__592137978(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "students/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true, :hyphenate_data_attrs=>true, :cdata=>false});_erbout = _hamlout.buffer;@output_buffer = output_buffer ||= ActionView::OutputBuffer.new rescue nil;;_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( show_for(@student) do |s|
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( s.attribute :name
+));}\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Edit', edit_student_path(@student)
+));}\n|\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Back', students_path
+));}\nend\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered students/show.html.haml within layouts/application (26.5ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\nend\n", 0, false);::Haml::U...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end):
+    1: = show_for(@student) do |s|
+    2: = s.attribute :name
+    3:  
+    4: = link_to 'Edit', edit_student_path(@student)
+    5: |
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.8ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (64.1ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2014-02-01 16:14:54 +0200
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.9ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 78ms (Views: 73.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:55 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:56 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:56 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:56 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:14:56 +0200
+
+
+Started GET "/students/1" for 127.0.0.1 at 2014-02-01 16:15:00 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+ERROR: compiling _app_views_students_show_html_haml___64414737__592137978 RAISED /home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\nend\n", 0, false);::Haml::U...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_students_show_html_haml___64414737__592137978(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "students/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true, :hyphenate_data_attrs=>true, :cdata=>false});_erbout = _hamlout.buffer;@output_buffer = output_buffer ||= ActionView::OutputBuffer.new rescue nil;;_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( show_for(@student) do |s|
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( s.attribute :name
+));}\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Edit', edit_student_path(@student)
+));}\n|\n#{
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Back', students_path
+));}\nend\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered students/show.html.haml within layouts/application (177.3ms)
+Completed 500 Internal Server Error in 201ms
+
+ActionView::Template::Error (/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:2: syntax error, unexpected ')'
+));}\n#{_hamlout.format_script...
+ ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:5: syntax error, unexpected '}', expecting keyword_end
+));}\n|\n#{
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected '}', expecting keyword_end
+));}\nend\n", 0, false);::Haml::U...
+    ^
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: unterminated string meets end of file
+/home/huseyin/Workspace/ab2014/app/views/students/show.html.haml:7: syntax error, unexpected end-of-input, expecting keyword_end):
+    1: = show_for(@student) do |s|
+    2: = s.attribute :name
+    3:  
+    4: = link_to 'Edit', edit_student_path(@student)
+    5: |
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:413:in `_run__216819155__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__437215992__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.4ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (86.6ms)
+
+
+Started GET "/students/1" for 127.0.0.1 at 2014-02-01 16:21:56 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered students/show.html.haml within layouts/application (22.1ms)
+Completed 200 OK in 78ms (Views: 71.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:21:56 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:21:56 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-01 16:21:56 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:21:56 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:21:57 +0200
+
+
+Started GET "/students" for 127.0.0.1 at 2014-02-01 16:22:06 +0200
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.7ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.haml within layouts/application (26.4ms)
+Completed 200 OK in 102ms (Views: 97.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/students/1" for 127.0.0.1 at 2014-02-01 16:22:09 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered students/show.html.haml within layouts/application (14.3ms)
+Completed 200 OK in 90ms (Views: 82.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students/1/edit" for 127.0.0.1 at 2014-02-01 16:22:12 +0200
+Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered students/_form.html.haml (29.7ms)
+  Rendered students/edit.html.haml within layouts/application (44.8ms)
+Completed 200 OK in 121ms (Views: 112.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students/1/edit" for 127.0.0.1 at 2014-02-01 16:22:15 +0200
+Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.9ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered students/_form.html.haml (31.1ms)
+  Rendered students/edit.html.haml within layouts/application (39.1ms)
+Completed 200 OK in 122ms (Views: 112.7ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/students/1" for 127.0.0.1 at 2014-02-01 16:22:16 +0200
+Processing by StudentsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"haxLT/klkU7KtVR7qu+bG2uAh4mnk566sbwizwm/diY=", "student"=>{"name"=>"Hüseyin Yaşar"}, "commit"=>"Student Güncelle", "id"=>"1"}
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/students/1
+Completed 302 Found in 15ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/students/1" for 127.0.0.1 at 2014-02-01 16:22:16 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered students/show.html.haml within layouts/application (5.4ms)
+Completed 200 OK in 62ms (Views: 55.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 16:22:17 +0200

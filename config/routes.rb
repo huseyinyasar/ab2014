@@ -1,4 +1,6 @@
 Ab2014::Application.routes.draw do
+  resources :students
+
   resources :teachers
 
   resources :courses
