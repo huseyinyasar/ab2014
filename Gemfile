@@ -7,6 +7,7 @@ gem 'haml'
 gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'simple_form'
+gem 'rails-i18n'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
