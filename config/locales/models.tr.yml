@@ -3,18 +3,18 @@ tr:
   activerecord:
     models:
       schemamigration: Schemamigration
-      course: Course
-      teacher: Teacher
+      course: Kurs
+      teacher: Eğitmen
     attributes:
       course:
-        id: Id
-        name: Name
-        content: Content
-        created_at: Created_at
-        updated_at: Updated_at
+        id: No
+        name: İsim
+        content: İçerik
+        created_at: Oluşturulma tarihi
+        updated_at: Güncellenme tarihi
         gsm: Gsm
       teacher:
-        id: Id
-        name: Name
-        created_at: Created_at
-        updated_at: Updated_at
+        id: No
+        name: İsim
+        created_at: Oluşturulma tarihi
+        updated_at: Güncellenme tarihi

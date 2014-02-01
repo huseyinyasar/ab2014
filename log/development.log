@@ -2437,3 +2437,239 @@ ActiveRecord::RecordNotFound (Couldn't find Course with id=1):
   Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.5ms)
   Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
   Rendered /home/huseyin/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (115.8ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2014-02-01 15:32:17 +0200
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.haml (12.8ms)
+  Rendered courses/new.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:19 +0200
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 15:32:22 +0200
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (11.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 112ms (Views: 97.2ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:23 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:24 +0200
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-02-01 15:32:45 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.haml within layouts/application (17.2ms)
+Completed 200 OK in 755ms (Views: 662.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:46 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:46 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:47 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-01 15:32:48 +0200
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2014-02-01 15:32:54 +0200
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.haml (2303.8ms)
+  Rendered courses/new.html.haml within layouts/application (2330.1ms)
+Completed 200 OK in 2389ms (Views: 2378.5ms | ActiveRecord: 2.7ms)
