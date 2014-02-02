@@ -7384,3 +7384,882 @@ Processing by CoursesController#new as HTML
   Rendered courses/_form.html.haml (70.2ms)
   Rendered courses/new.html.haml within layouts/application (82.9ms)
 Completed 200 OK in 200ms (Views: 195.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-02 17:19:05 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.1ms)[0m  SELECT "courses".* FROM "courses" LIMIT 10 OFFSET 0
+  Rendered courses/index.html.haml within layouts/application (111.4ms)
+Completed 200 OK in 14460ms (Views: 14351.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:21 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:21 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:21 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:21 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:21 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:22 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:23 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:23 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:23 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:23 +0200
+
+
+Started GET "/teachers" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+Processing by TeachersController#index as HTML
+  [1m[36mTeacher Load (1.4ms)[0m  [1mSELECT "teachers".* FROM "teachers"[0m
+  Rendered teachers/index.html.haml within layouts/application (24.5ms)
+Completed 200 OK in 170ms (Views: 120.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:29 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-02 17:19:30 +0200
+
+
+Started GET "/teachers/new" for 127.0.0.1 at 2014-02-02 17:19:32 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.haml (2381.6ms)
+  Rendered teachers/new.html.haml within layouts/application (2403.7ms)
+Completed 200 OK in 2578ms (Views: 2568.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/teachers/new" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.haml (71.7ms)
+  Rendered teachers/new.html.haml within layouts/application (80.5ms)
+Completed 200 OK in 151ms (Views: 135.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:22 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-02 17:23:23 +0200
+
+
+Started GET "/teachers/new" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.haml (23.9ms)
+  Rendered teachers/new.html.haml within layouts/application (29.9ms)
+Completed 200 OK in 109ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:52 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-02 17:24:53 +0200
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:24:55 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"aa"}, "commit"=>"Eğitmen Ekle"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (90.2ms)[0m  [1mINSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 02 Feb 2014 15:24:56 UTC +00:00], ["name", "aa"], ["updated_at", Sun, 02 Feb 2014 15:24:56 UTC +00:00]]
+  [1m[35m (254.5ms)[0m  commit transaction
+  Rendered teachers/create.js.erb (2.2ms)
+Completed 200 OK in 377ms (Views: 13.4ms | ActiveRecord: 345.2ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:25:17 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"aa"}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 02 Feb 2014 15:25:17 UTC +00:00], ["name", "aa"], ["updated_at", Sun, 02 Feb 2014 15:25:17 UTC +00:00]]
+  [1m[36m (260.1ms)[0m  [1mcommit transaction[0m
+  Rendered teachers/create.js.erb (11.5ms)
+Completed 500 Internal Server Error in 292ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: alert("<%= @product.name %>");
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__623671668'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (61.6ms)
+
+
+Started GET "/teachers/new" for 127.0.0.1 at 2014-02-02 17:25:20 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.haml (22.3ms)
+  Rendered teachers/new.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 96ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-02 17:25:20 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-02 17:25:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-02 17:25:20 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-02 17:25:20 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-02 17:25:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:21 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-02 17:25:22 +0200
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:25:28 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"ss"}, "commit"=>"Eğitmen Ekle"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 02 Feb 2014 15:25:28 UTC +00:00], ["name", "ss"], ["updated_at", Sun, 02 Feb 2014 15:25:28 UTC +00:00]]
+  [1m[35m (337.3ms)[0m  commit transaction
+  Rendered teachers/create.js.erb (10.7ms)
+Completed 500 Internal Server Error in 382ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: alert("<%= @product.name %>");
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__619293178'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.8ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (60.4ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:25:48 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"ss"}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 02 Feb 2014 15:25:48 UTC +00:00], ["name", "ss"], ["updated_at", Sun, 02 Feb 2014 15:25:48 UTC +00:00]]
+  [1m[36m (357.4ms)[0m  [1mcommit transaction[0m
+  Rendered teachers/create.js.erb (5.1ms)
+Completed 500 Internal Server Error in 392ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: alert("<%= @product.name %>");
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__619293178'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (67.3ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:26:09 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"sss"}, "commit"=>"Eğitmen Ekle"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 02 Feb 2014 15:26:09 UTC +00:00], ["name", "sss"], ["updated_at", Sun, 02 Feb 2014 15:26:09 UTC +00:00]]
+  [1m[35m (303.4ms)[0m  commit transaction
+  Rendered teachers/create.js.erb (7.5ms)
+Completed 500 Internal Server Error in 333ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: alert("<%= @product.name %>");
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__623339608'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.8ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (73.3ms)
+
+
+Started GET "/teachers/new" for 127.0.0.1 at 2014-02-02 17:26:11 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.haml (22.5ms)
+  Rendered teachers/new.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 95ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-02 17:26:11 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-02 17:26:11 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:11 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-02 17:26:11 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:12 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-02 17:26:13 +0200
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:26:15 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  INSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 02 Feb 2014 15:26:15 UTC +00:00], ["name", ""], ["updated_at", Sun, 02 Feb 2014 15:26:15 UTC +00:00]]
+  [1m[36m (241.7ms)[0m  [1mcommit transaction[0m
+  Rendered teachers/create.js.erb (4.4ms)
+Completed 500 Internal Server Error in 276ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: alert("<%= @product.name %>");
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__623339608'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.4ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (69.4ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:26:18 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"ccc"}, "commit"=>"Eğitmen Ekle"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 02 Feb 2014 15:26:18 UTC +00:00], ["name", "ccc"], ["updated_at", Sun, 02 Feb 2014 15:26:18 UTC +00:00]]
+  [1m[35m (306.9ms)[0m  commit transaction
+  Rendered teachers/create.js.erb (3.9ms)
+Completed 500 Internal Server Error in 337ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: alert("<%= @product.name %>");
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__623339608'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (65.7ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:27:55 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"ccc"}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 02 Feb 2014 15:27:55 UTC +00:00], ["name", "ccc"], ["updated_at", Sun, 02 Feb 2014 15:27:55 UTC +00:00]]
+  [1m[36m (306.8ms)[0m  [1mcommit transaction[0m
+  Rendered teachers/create.js.erb (6.6ms)
+Completed 500 Internal Server Error in 340ms
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if @product.errors.any? %>
+    2: 
+    3: <% else %>
+    4: 
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__623270178'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (58.3ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:27:59 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (2.6ms)[0m  [1mINSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 02 Feb 2014 15:27:59 UTC +00:00], ["name", ""], ["updated_at", Sun, 02 Feb 2014 15:27:59 UTC +00:00]]
+  [1m[35m (240.2ms)[0m  commit transaction
+  Rendered teachers/create.js.erb (3.5ms)
+Completed 500 Internal Server Error in 270ms
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if @product.errors.any? %>
+    2: 
+    3: <% else %>
+    4: 
+  app/views/teachers/create.js.erb:1:in `_app_views_teachers_create_js_erb___355639617__623270178'
+  app/controllers/teachers_controller.rb:29:in `create'
+
+
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+  Rendered /home/huseyin/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (58.8ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:28:20 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 02 Feb 2014 15:28:20 UTC +00:00], ["name", ""], ["updated_at", Sun, 02 Feb 2014 15:28:20 UTC +00:00]]
+  [1m[36m (213.4ms)[0m  [1mcommit transaction[0m
+  Rendered teachers/create.js.erb (2.0ms)
+Completed 200 OK in 237ms (Views: 11.7ms | ActiveRecord: 214.9ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:28:24 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"dddd"}, "commit"=>"Eğitmen Ekle"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 02 Feb 2014 15:28:24 UTC +00:00], ["name", "dddd"], ["updated_at", Sun, 02 Feb 2014 15:28:24 UTC +00:00]]
+  [1m[35m (314.2ms)[0m  commit transaction
+  Rendered teachers/create.js.erb (0.3ms)
+Completed 200 OK in 345ms (Views: 12.4ms | ActiveRecord: 317.5ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:30:06 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"dddd"}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 02 Feb 2014 15:30:06 UTC +00:00], ["name", "dddd"], ["updated_at", Sun, 02 Feb 2014 15:30:06 UTC +00:00]]
+  [1m[36m (312.4ms)[0m  [1mcommit transaction[0m
+  Rendered teachers/create.js.erb (1.7ms)
+Completed 200 OK in 333ms (Views: 9.7ms | ActiveRecord: 313.9ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:34:04 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>"dd"}, "commit"=>"Eğitmen Ekle"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "teachers" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 02 Feb 2014 15:34:04 UTC +00:00], ["name", "dd"], ["updated_at", Sun, 02 Feb 2014 15:34:04 UTC +00:00]]
+  [1m[35m (331.5ms)[0m  commit transaction
+  Rendered teachers/create.js.erb (1.7ms)
+Completed 200 OK in 365ms (Views: 15.0ms | ActiveRecord: 334.9ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:35:36 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  Rendered teachers/_form.html.haml (26.5ms)
+  Rendered teachers/new.html.haml within layouts/application (39.8ms)
+Completed 200 OK in 204ms (Views: 103.0ms | ActiveRecord: 5.3ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:36:01 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  Rendered teachers/_form.html.haml (15.7ms)
+  Rendered teachers/new.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 166ms (Views: 78.4ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/teachers/new" for 127.0.0.1 at 2014-02-02 17:36:55 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.haml (22.7ms)
+  Rendered teachers/new.html.haml within layouts/application (28.1ms)
+Completed 200 OK in 92ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-02 17:36:55 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:56 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:57 +0200
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:57 +0200
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:57 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-02 17:36:57 +0200
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:36:59 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  Rendered teachers/_form.html.haml (18.3ms)
+  Rendered teachers/new.html.haml within layouts/application (22.5ms)
+Completed 200 OK in 93ms (Views: 81.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:37:30 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  Rendered teachers/_form.html.haml (18.4ms)
+  Rendered teachers/new.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 91ms (Views: 74.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:37:36 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  Rendered teachers/_form.html.haml (20.7ms)
+  Rendered teachers/new.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 113ms (Views: 96.7ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/teachers" for 127.0.0.1 at 2014-02-02 17:37:47 +0200
+Processing by TeachersController#create as JS
+  Parameters: {"utf8"=>"✓", "teacher"=>{"name"=>""}, "commit"=>"Eğitmen Ekle"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  Rendered teachers/_form.html.haml (15.0ms)
+  Rendered teachers/new.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 90ms (Views: 73.8ms | ActiveRecord: 0.9ms)

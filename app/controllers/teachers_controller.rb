@@ -30,6 +30,7 @@ class TeachersController < ApplicationController
       if @teacher.save
         format.html { redirect_to @teacher, notice: 'Teacher was successfully created.' }
         format.json { render action: 'show', status: :created, location: @teacher }
+        format.js
       else
         format.html { render action: 'new' }
         format.json { render json: @teacher.errors, status: :unprocessable_entity }
