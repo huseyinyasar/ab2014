@@ -10,6 +10,12 @@ gem 'simple_form'
 gem 'rails-i18n'
 gem 'model_to_locale'
 gem 'show_for'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+
+#bunları ben ruby'yi yuklerken eklediler, not almış olmak için koyuyorum.
+#gem 'devise'
+#gem 'ransack'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
